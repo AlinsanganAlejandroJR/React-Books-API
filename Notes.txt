@@ -1,0 +1,86 @@
+/*
+    // Exercise 1
+    const [colors, setColors] = useState([]);
+
+    const addColor = (newColor) => {
+        const updatedColors = [
+            newColor,
+            ...colors //Using Spread Operator
+        ];
+
+        setColors(updatedColors);
+    }
+
+*/
+
+/*
+    //Exercise 2
+    const addColorAtIndex = (newColor, index) =>{
+        const updatedColors = [
+            ...colors.slice(0, index),
+            newColor,
+            ...colors.slice(index)
+        ];
+
+    setColors(updatedColors);
+    }
+
+*/
+
+/*
+    //Exercise 3 - FKT (Filter Keeps True)
+    // Color Only
+    const [colors, setColors] = useState(['red', 'green', 'blue']);
+
+    const removeColor = (colorToRemove) => {
+        const updatedColors = colors.filter((color) => {
+            return color !== colorToRemove
+        });
+
+        setColors(updatedColors);
+    }
+
+    // Color and Index
+    const [colors, setColors] = useState([]);
+
+    const removeColorAtIndex = (indexToRemove) => {
+        const updatedColors = colors.filter((color, index) => {
+            return indexToRemove !== index;
+        });
+
+        setColors(updatedColors);
+    }
+
+    // Books ID Example
+    const [books, setBooks] = useState([
+        { id: 1, title: 'Harry Potter' },
+        { id: 2, title: 'Dark Tower' }
+    ]);
+
+    const removeBookById = (id) =>{
+        const updatedBooks = books.filter((book) => {
+            return book.id !== id
+        });
+
+        setBooks(updatedBooks);
+    }
+*/
+
+/*
+    //Exercise 4 - Modifying an element based on a property
+    const [books, setBooks] = useState([
+        { id: 1, title: 'Harry Potter' }
+        { id: 2, title: 'Dark Tower' }
+    ]);
+
+    const updateBookById = (id, newTitle) => {
+        const updatedBooks = books.map((book) => {
+            if (book.id === id){
+                return { ...book, title: newTitle };
+        }
+        return book;
+    });
+    setBooks(updatedBooks);
+    };
+
+*/
