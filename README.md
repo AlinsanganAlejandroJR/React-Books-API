@@ -7,3 +7,12 @@ On this Udemy Project. This is the Second section of React Book App where it is 
 Im now getting a hands on knowledge about the useEffect. In this Project, we use the async and await with combination of the useEffect to fetch data from the database.
 
 I Also learn that vs code have extension to create a api connection with the use of Rest Client. Then, we configured it via package-json and adding a database in db.json. We also test the connection by creating a api.http
+
+# Features
+
+    - CRUD App
+    - API using REST Client
+    - Introduction in Context System or useContext
+    - Introduction in useCallback to fix the useEffect Bug
+    - useState
+    - useEffect
